@@ -8,6 +8,7 @@ export default defineUserConfig({
     lang: 'zh-CN',
     title: "Fyliue个人博客",
     description: '我的个人博客',
+    base: './',
     logo:'https://vuejs.org/images/logo.png',
     theme: defaultTheme({
         navbar: [
