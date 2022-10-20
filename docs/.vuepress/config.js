@@ -8,7 +8,7 @@ export default defineUserConfig({
     lang: 'zh-CN',
     title: "Fyliue个人博客",
     description: '我的个人博客',
-    base: './',
+    base: '/fyblog/',
     logo:'https://vuejs.org/images/logo.png',
     theme: defaultTheme({
         navbar: [
@@ -119,6 +119,10 @@ export default defineUserConfig({
                             {
                                 text: 'Node-Nest',
                                 link: '/pages/Server/frame/Node-Nest'
+                            },
+                            {
+                                text: 'Deno',
+                                link: '/pages/Server/frame/Deno'
                             }
                         ]
                     }
@@ -302,6 +306,14 @@ export default defineUserConfig({
                     collapsible: true,
                     children: [
                         '/pages/Server/frame/Node-Nest.md'
+                    ]
+                },
+                {
+
+                    text: 'Deno',
+                    collapsible: true,
+                    children: [
+                        '/pages/Server/frame/Deno.md'
                     ]
                 }
             ],
