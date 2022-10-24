@@ -29,7 +29,7 @@ Vue和其他主流框架底层都是运用了VDOM，原因是因为浏览器底�
 
 
 
-## Reconciliation
+## Reconciliation（协调）
 
 ### 设计动机
 
@@ -203,7 +203,7 @@ React 会销毁 `Counter` 组件并且重新装载一个新的组件。
 
 ## Fiber
 
-Fiber 是 React 16 中新的协调引擎。它的主要目的是使 Virtual DOM 可以进行增量式渲染。Fiber 是对 React 核心算法的重构，facebook 团队使用两年多的时间去重构 React 的核心算法，在React16 以上的版本中引入了 Fiber 架构
+Fiber 是 React 16 中新的协调引擎。它的主要目的是使 Virtual DOM 可以进行增量式渲染，提高其在动画， 布局和手势等领域的适用性。能够将渲染工作分割成块，并将其分散到多个帧上。Fiber 是对 React 核心**算法**的重构，facebook 团队使用两年多的时间去重构 React 的核心算法，在React16 以上的版本中引入了 Fiber 架构
 
 
 
