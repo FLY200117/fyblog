@@ -85,7 +85,7 @@ link标签中的rel值当设置为preload时，就表示该资源需要预加载
 
 ::: tip
 
-预加载一般在项目中十分有用，可以在网页访问后执行一些我们想要的代码，例如监控SDK，预加载页面，让网页访问速度更快，这取决于我们项目中网页的定位
+预加载一般在项目中十分有用，可以在网页访问后执行一些我们想要的代码，例如监控SDK，预加载页面，让网页访问速度更快，这取决于我们项目中网页的定位，同时不仅有preload，还有prefetch和prerender两种不同的预加载，详情请见[MDN](https://developer.mozilla.org/zh-CN/docs/Web/HTML/Link_types)
 
 :::
 
