@@ -10,7 +10,7 @@
 
 css（层叠样式表）是用于设置和布置网页，html生成的Dom tree和css生成的style rules相结合就变成了我们看到的网页的形状，css可以被看作是用来表述dom节点的长相的，dom元素字体可以是红色的，大小可以是任意设置的，等等很多rules。css可以创建外观漂亮的网页
 
-![render过程](/images/render.png)
+![render过程](/images/css/render.png)
 
 
 
