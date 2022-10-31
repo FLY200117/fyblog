@@ -1856,7 +1856,7 @@ History的特点：
 
 
 
-防抖就是指触发事件后在 n 秒内函数只能执行一次，如果在 n 秒内又触发了事件，则会重新计算函数执行时间
+防抖就是指触发事件后在 n 秒内函数只能执行一次，如果在 n 秒内又触发了事件，则会重新计算函数执行时间，只让最后一次执行生效，前面的都不执行
 
 ```javascript
 function debounce(fn,delay){
@@ -1887,29 +1887,21 @@ function debounce(fn,delay){
 
 
 
-节流就是指连续触发事件但是在 n 秒中只执行一次函数。节流会稀释函数的执行频率
+节流就是指在事件触发后，规定时间内触发函数不能再次被调用，在规定时间内函数只能被调用一次，且是最先被触发调用的那次。节流会稀释函数的执行频率
 
 ```js
 function throttle(fn,delay){
-  			//定义开关
-  			let canUse = true
-  		
+  			//记录上一次函数触发时间
+  			var lastTime = 0;
   			return function(){
-  				if(canUse){
-  					//关闭开关
-  					canUse = false
-  					//定时打开开关，时间自定义
-  					setTimeout(() => {
-                        //触发事件
-                        fn.apply(this,arguments);
-                        canUse=true
-                    },delay)
-  				}else{
-                      return ;
-                }
+                //记录当前函数触发时间
+                let nowTime = Date.now();
+  				if(nowTime - lastTime > delay){
+  					fn.call(this);
+                    lastTime = nowTime
+  				}
   			}
-			
-  		}
+}
 ```
 
 ::: tip
