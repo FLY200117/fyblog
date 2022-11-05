@@ -236,7 +236,8 @@ export default defineUserConfig({
                     text: '桌面端',
                     collapsible: true,
                     children: [
-                        '/pages/Web/platform/desktop.md'
+                        '/pages/Web/platform/desktop.md',
+                        '/pages/Web/platform/desktop2.md'
                     ]
                 },
                 {
