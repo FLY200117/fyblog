@@ -330,7 +330,8 @@ export default defineUserConfig({
                     text: '随笔',
                     collapsible: true,
                     children: [
-                        '/pages/Skill/essay.md'
+                        '/pages/Skill/essay.md',
+                        '/pages/Skill/前后端分离.md'
                     ]
                 }
             ],
