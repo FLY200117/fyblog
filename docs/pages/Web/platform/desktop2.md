@@ -349,7 +349,7 @@ setButton.addEventListener('click', () => {
 
 
 
-### **模式2.渲染器进程到主进程（双向）
+### **模式2.渲染器进程到主进程（双向）**
 
 双向 IPC 的一个常见应用是从渲染器进程代码调用主进程模块并等待结果。 这可以通过将 [`ipcRenderer.invoke`](https://www.electronjs.org/zh/docs/latest/api/ipc-renderer#ipcrendererinvokechannel-args) 与 [`ipcMain.handle`](https://www.electronjs.org/zh/docs/latest/api/ipc-main#ipcmainhandlechannel-listener) 搭配使用来完成
 
