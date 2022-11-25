@@ -220,7 +220,16 @@ export default defineUserConfig({
                     children: [
                         '/pages/Web/frame/React.md',
                         '/pages/Web/frame/React2.md',
-                        '/pages/Web/frame/Redux.md'
+                    ]
+                },
+                {
+                    text: '状态管理',
+                    collapsible: true,
+                    children: [
+                        '/pages/Web/frame/Vuex.md',
+                        '/pages/Web/frame/Redux.md',
+                        '/pages/Web/frame/pinia.md',
+                        '/pages/Web/frame/mobx.md'
                     ]
                 }
             ],
