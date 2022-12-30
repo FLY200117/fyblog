@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-eca9aa48","path":"/pages/Skill/base/DesignMode.html","title":"\u8BBE\u8BA1\u6A21\u5F0F","lang":"zh-CN","frontmatter":{},"excerpt":"","headers":[],"git":{"updatedTime":1665907850000,"contributors":[{"name":"FLY200117","email":"1812809429@qq.com","commits":1}]},"filePathRelative":"pages/Skill/base/DesignMode.md"}');export{e as data};

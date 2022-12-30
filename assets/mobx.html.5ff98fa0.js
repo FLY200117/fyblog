@@ -1,0 +1,1 @@
+import{_ as o,o as t,c as a,b as e,d as c}from"./app.1281bbb5.js";const r={},s=e("h1",{id:"mobx",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#mobx","aria-hidden":"true"},"#"),c(" mobx")],-1),n=[s];function _(d,i){return t(),a("div",null,n)}const h=o(r,[["render",_],["__file","mobx.html.vue"]]);export{h as default};

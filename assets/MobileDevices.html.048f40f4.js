@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-289f811b","path":"/pages/Web/platform/MobileDevices.html","title":"\u79FB\u52A8\u7AEF","lang":"zh-CN","frontmatter":{},"excerpt":"","headers":[],"git":{"updatedTime":1665907850000,"contributors":[{"name":"FLY200117","email":"1812809429@qq.com","commits":1}]},"filePathRelative":"pages/Web/platform/MobileDevices.md"}');export{e as data};

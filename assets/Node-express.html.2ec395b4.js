@@ -1,0 +1,1 @@
+import{_ as s,o as r,c as t,b as e,d as a}from"./app.1281bbb5.js";const o={},c=e("h1",{id:"express",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#express","aria-hidden":"true"},"#"),a(" Express")],-1),d=[c];function n(_,i){return r(),t("div",null,d)}const l=s(o,[["render",n],["__file","Node-express.html.vue"]]);export{l as default};

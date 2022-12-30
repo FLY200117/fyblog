@@ -1,0 +1,1 @@
+import{_ as t,o as c,c as a,b as e,d as o}from"./app.1281bbb5.js";const r={},s=e("h1",{id:"cli",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#cli","aria-hidden":"true"},"#"),o(" Cli")],-1),i=[s];function n(_,l){return c(),a("div",null,i)}const h=t(r,[["render",n],["__file","Cli.html.vue"]]);export{h as default};

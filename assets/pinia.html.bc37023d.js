@@ -1,0 +1,1 @@
+import{_ as a,o as t,c as i,b as e,d as n}from"./app.1281bbb5.js";const c={},o=e("h1",{id:"pinia",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#pinia","aria-hidden":"true"},"#"),n(" pinia")],-1),r=[o];function s(_,d){return t(),i("div",null,r)}const l=a(c,[["render",s],["__file","pinia.html.vue"]]);export{l as default};
