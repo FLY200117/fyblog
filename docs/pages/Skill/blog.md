@@ -8,13 +8,13 @@
 
 
 
-# 框架选型
+## 框架选型
 
 框架上的选型，我选择的是[Vuepress2](https://v2.vuepress.vuejs.org/zh/)
 
 
 
-## 项目创建
+### 项目创建
 
 首先，我们需要创建一个博客文件夹，然后初始化并创建项目
 
@@ -30,7 +30,7 @@ npm install -D vuepress@next
 
 
 
-::: tips
+::: tip
 
 如果npm安装不了的，可以使用下面命令：`npm install -D vuepress@next --registry=https://registry.npmmirror.com/`
 
@@ -71,7 +71,7 @@ node_modules
 
 
 
-## 丰富项目
+### 丰富项目
 
 vuepress提供了许多强大的功能，下面我们就来使用其来丰富我们的项目。
 
@@ -240,7 +240,7 @@ const count = ref(0)
 
 
 
-# 服务器部署
+## 服务器部署
 
 服务端部署有很多方式，这里选用的是Github Pages，和Github Actions
 
