@@ -302,6 +302,13 @@ export default defineUserConfig({
                         '/pages/Server/DataBase.md'
                     ]
                 },
+                {
+                    text: '服务器',
+                    collapsible: true,
+                    children: [
+                        '/pages/Skill/Nginx.md'
+                    ]
+                }
             ],
             '/pages/Server/frame/': [
                 {
@@ -340,7 +347,8 @@ export default defineUserConfig({
                     collapsible: true,
                     children: [
                         '/pages/Skill/essay.md',
-                        '/pages/Skill/前后端分离.md'
+                        '/pages/Skill/前后端分离.md',
+                        '/pages/Skill/blog.md'
                     ]
                 }
             ],
