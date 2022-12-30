@@ -63,7 +63,7 @@ node_modules
 
 创建一个文件夹docs，里面创建一个新的README.md文件，然后输入# hello world，最后让我们运行脚本来看看结果如何：`npm run docs:dev`
 
-![1672373422420](C:/Users/86186/Desktop/Vue学习图片/1672373422420.png)
+![blog](/images/blog/blog.png)
 
 
 
